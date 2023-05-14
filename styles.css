@@ -1,0 +1,38 @@
+body {
+  background: linear-gradient(to left, #ffffff, #fffc00);
+  overflow: hidden;
+}
+h1 {
+  font-size: 2em;
+  background: linear-gradient(#fc00ff, #00dbde);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+div,
+li,
+a {
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  padding: 2px 2px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.homepage {
+  justify-content: center;
+}
+
+.spec {
+  border: 3px solid red;
+  border-radius: 40%;
+}
+
+picture img {
+  border-radius: 15px;
+}
